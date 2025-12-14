@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #00040c, #054cf2, #eaedf1fe);
+    color: whitesmoke;
+}
+/*header*/
+.site-header{
+    background: rgba(15, 23, 42, 0.9);
+    color: white;
+    padding: 20px 40px;
+}
+.site-header h1{
+margin: 0;
+}
+nav{
+    margin-top: 10px;
+}
+    .access{
+        background: #111;
+    color: #fff;
+    padding: 10px;
+    }
+nav, a{
+    color: #e0f2fe;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+section{
+    margin: 20px;
+}
+/*main*/
+main{
+    padding: 60px 40px;
+}
+/*hero*/
+.hero{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 40px;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+.hero img{
+    width: 50%;
+    border-radius: 14px;
+}
+.hero-text h2{
+font-size: 2rem;
+margin-bottom: 15px;
+}
+/* card sections*/
+.card{
+    text-align: center;
+    gap: 25px;
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 40px;
+}
+.card img{
+    width: 50%;
+    border-radius: 12px;
+}
+.card h2{
+    margin-top: 0;
+}
+.coding img{
+    width: 50%;
+    border-radius: 12px;
+}
+/*footer*/
+footer{
+    background: rgba(15, 23, 42, 0.95);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/*contact page*/
+.contact-page, .signup-page, .login-page{
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+.contact-container, .signup, .login{
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px;
+}
+.contact-container, .signup, .login h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.contact-container img{
+width:30%;
+border-radius: 12px;
+
+}
+
+label{
+    font-weight: 700; /*bold*/
+    font-size: 16px;
+    color: #ffff44;
+}
+input{
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+textarea{
+    width: 100%;
+    height: 120px;/*controls height*/
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    resize: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    width: 20%;
+    padding: 5px;
+    border-radius: 8px;
+    color: #054cf2;
+    background-color: #ffff44;
+    font-weight: 600;
+}
+.docs-page{
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+}
+.docs-section{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    padding: 45px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.docs-section img{
+    border-radius: 14px;
+    width: 100%;
+}
+.switch{
+    text-align: center;
+    font-weight: 700;
+}
